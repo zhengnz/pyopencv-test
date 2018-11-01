@@ -1,5 +1,8 @@
+#-*- coding: utf-8 -*-
 from flask import Flask, render_template, Response
-import opencv
+import opencv, sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 class VideoCamera(object):
     def __init__(self):
