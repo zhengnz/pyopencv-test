@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 from flask import Flask, render_template, Response
-import opencv, sys
+import cv2, sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
